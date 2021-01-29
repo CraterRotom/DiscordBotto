@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const auth = require('./auth.json');
-const PREFIX = "rc!"
+const PREFIX = "r!"
 
 client.on('ready', () => {
     client.user.setActivity("Use r!help", { type: "PLAYING"})
