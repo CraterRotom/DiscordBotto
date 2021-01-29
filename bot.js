@@ -5845,7 +5845,11 @@ return Math.random() * (max - min) + min;
         ];
         var randomRPmon = RPmonList[Math.floor(Math.random() * 
         RPmonList.length)];
-    
+        
+        var rand = function(min, max) {
+        return Math.random() * (max - min) + min;
+        };
+        
         var DogPkmList = ["Absol","Lycanroc (Day)","Lycanroc (Night)","Arcanine","Ninetales","Mightyena"]
         var randomDogPkm = DogPkmList[Math.floor(Math.random() * 
         DogPkmList.length)];
