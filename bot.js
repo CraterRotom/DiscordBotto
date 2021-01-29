@@ -7691,4 +7691,3 @@ if (msg.content.startsWith (PREFIX + "shuffle")) { //25 % win rate
   });
 
 client.login(auth.token);
-client.login(process.env.BOT_TOKEN);
